@@ -4,7 +4,7 @@
     <title>SISTEMA DE GESTIÓN DOCUMENTAL CON FIRMA DIGITAL</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -21,14 +21,7 @@
     <script src="js/jquery.lightbox.js"></script>
     <script src="js/bootstrap-collapse.js"></script> 
     <script src="js/bootstrap.min.js"></script>
-
-	<script language="JavaScript">   
-   		function abrirVentana() {   
-    		open("video_capacitacion.html","Modulo General", "toolbar=no,directories=no,menubar=no,status=no,height=800,width=600");   
-   		}   
-  	</script> 
-
-    <!-- JavaScripts -->  
+ 
 </head>
 <body>
 
@@ -65,9 +58,9 @@
                 <!-- /.container-fluid --> 
             </nav>
             <div class="templatemo_socialmedia">
-                <div class="templatemo_social"><a href="https://www.facebook.com/CeroPapelesSanMarcos/"><i class="fa fa-facebook" style="font-size: inherit;"></i> | </a></div> 
-                <div class="templatemo_social"><a href="#"><i class="fa fa-twitter" style="font-size: inherit;"></i> | </a></div> 
-                <div class="templatemo_social"><a href="#"><i class="fa fa-google-plus" style="font-size: inherit;"></i></a></div>
+                <div class="templatemo_social"><a href="https://www.facebook.com/CeroPapelesSanMarcos/" target="_blank"><i class="fa fa-facebook" style="font-size: 1.5em;"></i><font style="font-size: 1.5em;">  |  </font></a></div> 
+                <div class="templatemo_social"><a href="#"><i class="fa fa-twitter" style="font-size: 1.5em;"></i><font style="font-size: 1.5em;">  |  </font></a></div> 
+                <div class="templatemo_social"><a href="#"><i class="fa fa-google-plus" style="font-size: 1.5em;"></i></a></div>
             </div>
 
         </div>
@@ -92,45 +85,53 @@
                         <p></p>
                         <p>
                             <strong>
-                                En la segunda fase del Proyecto  Sistema de Gestión Documental con Firma Digital se pretende Implantar el  sistema en las diferentes facultades de la Universidad Nacional Mayor de San  Marcos, tal como se vino realizando durante la primera etapa, etapa Piloto.
-                                <br>Posteriormente, se realizó un cronograma con  fechas programadas para las Capacitaciones en cada facultad, donde estas tienen  por objetivo mostrar de una forma generalizada cuales son las funcionalidades  del Sistema de Gestión Documental y cómo los administrativos harán uso de éste  sistema.
-                                <br>Debido a que el sistema además de una comunicación rápida y paso de  información  instantánea, integra también  la funcionalidad de firmar digitalmente, por tanto se muestra como una alternativa  al uso del papel y documentos físicos respecto los trámites que se realizan  dentro de las diferentes facultades.
-                                <br>Durante las capacitaciones se  expresó y dio a conocer claramente cuál era el objetivo principal del  proyecto  SGDFD, el de reducir  considerablemente el tiempo que generan los trámites que realizan los  estudiantes al momento de gestionar la obtención de grado de Bachiller y título  Profesional.
+                                En la segunda fase del <FONT COLOR=#877D16>Proyecto Sistema de Gestión Documental con Firma Digital (SGDFD)</FONT> se tiene como objetivo implementar el sistema en las veinte diferentes facultades de la Universidad Nacional Mayor de San Marcos, tal como se realizó en la primera fase piloto en tres facultades (Sistemas, Industrial y Electrónica).
+                                <br>Se realizaron capacitaciones en cada facultad, con el objetivo de mostrar de una forma generalizada cuales son las funcionalidades del Sistema de Gestión Documental y cómo el personal administrativo hará uso de éste. 
+                                <br>Debido a que, el sistema además de una comunicación rápida y paso de información  instantánea integra la funcionalidad de <FONT COLOR=#877D16>firmar digitalmente</FONT>, se muestra como una alternativa viable uso del papel y documentos físicos en los trámites que se realizan en las diferentes facultades.
+                                <br>Durante las capacitaciones se dio a conocer claramente cuál era el objetivo principal del proyecto  SGDFD, el de reducir considerablemente el tiempo y uso de papel que genera los trámites que realizan los egresados al momento de gestionar la obtención de grado de bachiller y título profesional.
                             </strong>
                         </p> 
                     </div>
                    
-                    <!-- Modal Video   -->
-                    <div class="templatemo_homebuton" data-toggle="modal" data-target="#myModal0">
-                        Ver Video
+                    <!-- Modal Video-->   
+                       <div class="templatemo_homebuton video-link medium-paragraph">
+                        <a href="#" class="launch-modal" data-modal-id="modal-video">
+                            <span class="video-link-icon"><i class="fa fa-play"></i></span> 
+                            <span class="video-link-text">Ver video</span>
+                        </a>
                     </div>
 
-                    <div class="modal fade" id="myModal0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                      <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                          	Modulo General
-                          </div>
-                          <div class="modal-body">
-                            <video controls autoplay widht="500" height="400">
-		  						<source src="videos/video_presentacion.mp4" type="video/mp4">
-							</video>
+                    <!-- MODAL -->
+                    <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content1">
+                                <div class="modal-header1">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body1">
+                                    <div class="modal-video">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" 
+                                                    src="videos/video_presentacion.mp4"
+                                                    width="980px"
+                                                    height="550px"
+                                                    webkitallowfullscreen 
+                                                    mozallowfullscreen 
+                                                    allowfullscreen>    
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
 
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                          </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
-                 <!--  
-                    <div class="templatemo_homebuton">
-                        <a href="javascript:abrirPopup('video_capacitacion.html','nombreDelPopup',900,600,'nobars')">Ver Videoasdasso</a>
-                    </div>
-                -->
               </div>
           </div>
+
            <!-- primera división -->
            <div class="row">
                 <div class="col-md-6"></div>
@@ -154,7 +155,7 @@
             <div class="row">
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_geologica/img_geo1.jpg" alt="gallery 1" width="100%">
+                        <img src="images/fotos/fotos_figmmg/img_geo1.jpg" alt="gallery 1" width="100%">
                         <div class="templatemo_service_frame">
                             <img src="images/templatemo_serviceimg.png" alt="templatemo_frame">
                         </div>
@@ -170,7 +171,7 @@
                     <div class="templatemo_service_title">FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS, METALÚRGICA Y GEOGRÁFICA</div>
                     <div class="templatemo_service_subtitle">FIGMMG</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el dia 19 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.</p>
+                        <p>Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el 19 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.</p>
                         <div class="clear"></div>
                     </div>
                     
@@ -187,11 +188,12 @@
                                     <h4 class="modal-title" id="myModalLabel1">CAPACITACIÓN EN LA FACULTAD DE INGENIERÍA GEOLÓGICA, MINAS, METALÚRGICA Y GEOGRÁFICA</h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el dia 19 de Setiembre del 2017.
+                                    Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el 19 de Setiembre del 2017.
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.
                                     Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FIGMMG, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
-                                   <!-- <img src="images/fotos/fotos_geologica/img_geoGrupal.jpg">  -->
-                                    <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
+                                   <!--<img src="images/fotos/fotos_figmmg/img_geoGrupal.jpg">-->
+                                   <img src="images/fotos/fotos_figmmg/img_geo3.jpg">
+                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -207,7 +209,7 @@
                     <div class="templatemo_service_title">FACULTAD DE QUÍMICA E INGENIERÍA QUÍMICA</div>
                     <div class="templatemo_service_subtitle">FQIQ</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la FQIQ, el dia 23 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
+                        <p>Se programó la primera fecha de capacitación en la FQIQ, el 23 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
                     </div>
                     <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal2">
                         LEER MÁS
@@ -222,11 +224,11 @@
                                     <h4 class="modal-title" id="myModalLabel2">CAPACITACIÓN EN LA FACULTAD DE QUÍMICA E INGENIERÍA QUÍMICA</h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la FQIQ, el dia 23 de Setiembre del 2017. 
+                                    Se programó la primera fecha de capacitación en la FQIQ, el 23 de Setiembre del 2017. 
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
                                     Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FQIQ, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
-                                  <!--  <img src="images/fotos/fotos_quimica/img_quimicaGrupal.jpg">  -->
-                                    <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
+                                  <!--  <img src="images/fotos/fotos_fqiq/img_quimicaGrupal.jpg">  -->
+                                    <img src="images/fotos/fotos_fqiq/img_quimica1.jpg">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -237,7 +239,7 @@
                 </div>
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_quimica/img_quimica2.jpg" alt="gallery 2" width="100%">
+                        <img src="images/fotos/fotos_fqiq/img_quimica2.jpg" alt="gallery 2" width="100%">
                         <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg.png" alt="templatemo_frame"></div>
                         <div class="overlay">
                             <div class="templatemo_service_frame">
@@ -266,7 +268,7 @@
                     <div class="templatemo_service_title">FACULTAD DE PSICOLOGÍA</div>
                     <div class="templatemo_service_subtitle">FAC. PSICOLOGÍA</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la Facultad  de Psicología , el dia 22 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la Fac. de Psicología para la correspondiente capacitación al personal administrativo.</p>  
+                        <p>Se programó la primera fecha de capacitación en la Facultad  de Psicología , el 22 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la Fac. de Psicología para la correspondiente capacitación al personal administrativo.</p>  
                     </div>
 
                     <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal3">
@@ -280,7 +282,7 @@
                                     <h4 class="modal-title" id="myModalLabel3">CAPACITACIÓN EN LA FACULTAD DE PSICOLOGÍA</h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la Facultad  de Psicología , el dia 22 de Setiembre del 2017. 
+                                    Se programó la primera fecha de capacitación en la Facultad  de Psicología , el 22 de Setiembre del 2017. 
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la Fac. de Psicología para la correspondiente capacitación al personal administrativo.
                                     Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la Fac. de Psicología, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
                                     <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
@@ -301,7 +303,7 @@
                     <div class="templatemo_service_title">FACULTAD DE DERECHO Y CIENCIAS POLÍTICAS</div>
                     <div class="templatemo_service_subtitle">FDCP</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la FDCP, el dia 25 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FDCP para la correspondiente capacitación al personal administrativo.</p>
+                        <p>Se programó la primera fecha de capacitación en la FDCP, el 29 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FDCP para la correspondiente capacitación al personal administrativo.</p>
                         <div class="clear"></div>
                     </div>
 
@@ -318,10 +320,10 @@
                                     <h4 class="modal-title" id="myModalLabel4">CAPACITACIÓN EN LA FACULTAD DE DERECHO Y CIENCIAS POLÍTICAS </h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la FDCP, el dia 25 de Setiembre del 2017. 
+                                    Se programó la primera fecha de capacitación en la FDCP, el 29 de Setiembre del 2017.
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FDCP para la correspondiente capacitación al personal administrativo.
-                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la Fac. de Psicología, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
-                                    <img src="images/fotos/fotos_derecho/img_dcpGrupal.jpg">
+                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FDCP, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
+                                    <img src="images/fotos/fotos_fdcp/img_fdcpGrupal.JPG">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -332,7 +334,7 @@
                 </div>
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_derecho/img_dcp1.jpg" alt="gallery 4" width="100%">
+                        <img src="images/fotos/fotos_fdcp/img_fdcp1.jpg" alt="gallery 4" width="100%">
                         <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg.png" alt="templatemo_frame"></div>
                         <div class="overlay">
                             <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg1.png" alt="templatemo_frame"></div>
@@ -345,7 +347,7 @@
             <div class="row">
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_farmacia/img_farmacia1.jpg" alt="gallery 5" width="100%">
+                        <img src="images/fotos/fotos_ffb/img_farmacia1.jpg" alt="gallery 5" width="100%">
                         <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg.png" alt="templatemo_frame"></div>
                         <div class="overlay">
                             <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg1.png" alt="templatemo_frame"></div>
@@ -357,7 +359,7 @@
                     <div class="templatemo_service_title">FACULTAD DE FARMACIA Y BIOQUÍMICA</div>
                     <div class="templatemo_service_subtitle">FFB</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la Facultad  de Psicología , el dia 26 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FFB para la correspondiente capacitación al personal administrativo.</p>               
+                        <p>Se programó la primera fecha de capacitación en la Facultad  de Psicología , el 25 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FFB para la correspondiente capacitación al personal administrativo.</p>               
                     </div>
 
                     <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal5">
@@ -371,10 +373,10 @@
                                     <h4 class="modal-title" id="myModalLabel5">CAPACITACIÓN EN LA FACULTAD DE FARMACIA Y BIOQUÍMICA</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Se programó la primera fecha de capacitación en la Facultad  de Farmacia y bioquímica , el dia 26 de Setiembre del 2017. 
+                                    <p>Se programó la primera fecha de capacitación en la Facultad  de Farmacia y bioquímica , el 25 de Setiembre del 2017. 
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FFB para la correspondiente capacitación al personal administrativo.
-                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la Fac. de Psicología, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.</p>
-                                    <p><img src="images/fotos/fotos_farmacia/img_farmaciaGrupal.jpg"></p>
+                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FFB, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.</p>
+                                   <!-- <img src="images/fotos/fotos_ffb/img_farmaciaGrupal.jpg">-->
                                     
                                 </div>
                                 <div class="modal-footer">
@@ -391,7 +393,7 @@
                     <div class="templatemo_service_title">FACULTAD DE LETRAS Y CIENCIAS HUMANAS</div>
                     <div class="templatemo_service_subtitle">FLCH</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la FIGMMG, el dia 19 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FLCH para la correspondiente capacitación al personal administrativo, quien mostrando...</p>
+                        <p>Se programó la primera fecha de capacitación en la FIGMMG, el 27 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FLCH para la correspondiente capacitación al personal administrativo.</p>
                         <div class="clear"></div>
                     </div>
                     <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal6">
@@ -405,10 +407,10 @@
                                     <h4 class="modal-title" id="myModalLabel6">CAPACITACIÓN EN LA FACULTAD DE LETRAS Y CIENCIAS HUMANAS</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Se programó la primera fecha de capacitación en la Facultad  de Letras y Ciencias Humanas, el dia 29 de Setiembre del 2017.
+                                    <p>Se programó la primera fecha de capacitación en la Facultad  de Letras y Ciencias Humanas, el 27 de Setiembre del 2017.
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FLCH para la correspondiente capacitación al personal administrativo.
-                                       Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la Fac. de Psicología, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.</p>
-                                    <p><img src="images/fotos/fotos_letras/img_flchGrupal.jpg"></p>
+                                       Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FLCH, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.</p>
+                                    <p><img src="images/fotos/fotos_flch/img_flchGrupal.JPG"></p>
                                     
                                 </div>
                                 <div class="modal-footer">
@@ -420,7 +422,7 @@
                 </div>
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_letras/img_flch1.jpg" alt="gallery 6" width="100%">
+                        <img src="images/fotos/fotos_flch/img_flch1.jpg" alt="gallery 6" width="100%">
                         <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg.png" alt="templatemo_frame"></div>
                         <div class="overlay">
                             <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg1.png" alt="templatemo_frame"></div>
@@ -429,11 +431,11 @@
                     </div>
                 </div>
             </div>
-
+            <!--FCC: 27 SET - 2:30PM-->
             <div class="row">
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_geologica/img_geo1.jpg" alt="gallery 1" width="100%">
+                        <img src="images/fotos/fotos-fcc/img_fcc3.JPG" alt="gallery 7" width="100%">
                         <div class="templatemo_service_frame">
                             <img src="images/templatemo_serviceimg.png" alt="templatemo_frame">
                         </div>
@@ -441,36 +443,36 @@
                             <div class="templatemo_service_frame">
                                 <img src="images/templatemo_serviceimg1.png" alt="templatemo_frame">
                             </div>
-                            <a href="images/service/img_geo1.jpg" data-rel="lightbox" data-title="FIGMMG" class="fa fa-search-plus"></a>
+                            <a href="images/service/img_fcc3.JPG" data-rel="lightbox" data-title="FIGMMG" class="fa fa-search-plus"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 templatemo_service">
-                    <div class="templatemo_service_title">FACULTAD DE INGENIERÍA INDUSTRIAL</div>
-                    <div class="templatemo_service_subtitle">FIGMMG</div>
+                    <div class="templatemo_service_title">FACULTAD DE CIENCIAS CONTABLES</div>
+                    <div class="templatemo_service_subtitle">FCC</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el dia 19 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.</p>
+                        <p>Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el 27 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.</p>
                         <div class="clear"></div>
                     </div>
                     
-                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal1">
+                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal7">
                         LEER MÁS
                     </div>
 
 
-                    <div class="modal fade" id="miModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="miModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     
-                                    <h4 class="modal-title" id="myModalLabel1">CAPACITACIÓN EN LA FACULTAD DE INGENIERÍA INDUSTRIAL</h4>
+                                    <h4 class="modal-title" id="myModalLabel7">FACULTAD DE CIENCIAS CONTABLES</h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el dia 19 de Setiembre del 2017.
+                                    Se programó la primera fecha de capacitación en la Facultad de Ciencias Contables, el 27 de Setiembre del 2017.
                                     LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.
-                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FIGMMG, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
+                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FCC, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
                                    <!-- <img src="images/fotos/fotos_geologica/img_geoGrupal.jpg">  -->
-                                    <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
+                                    <img src="images/fotos/fotos-fcc/img_fccGrupal.JPG">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -483,29 +485,29 @@
 
             <div class="row templatemo_ordering">
                 <div class="col-md-6 templatemo_service one">
-                    <div class="templatemo_service_title">FACULTAD DE INGENIERÌA ELÈCTRICA Y ELECTRÒNICA</div>
-                    <div class="templatemo_service_subtitle">FQIQ</div>
+                    <div class="templatemo_service_title">FACULTAD DE CIENCIAS ECONÓMICAS</div>
+                    <div class="templatemo_service_subtitle">FCE</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la FQIQ, el dia 23 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
+                        <p>Se programó la primera fecha de capacitación en la FCE, el dia 23 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FCE para la correspondiente capacitación al personal administrativo.
                     </div>
-                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal2">
+                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal8">
                         LEER MÁS
                     </div>
 
 
-                    <div class="modal fade" id="miModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="miModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     
-                                    <h4 class="modal-title" id="myModalLabel2">FACULTAD DE INGENIERÌA ELÈCTRICA Y ELECTRÒNICA</h4>
+                                    <h4 class="modal-title" id="myModalLabel8">FACULTAD DE CIENCIAS ECONÓMICAS</h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la FQIQ, el dia 23 de Setiembre del 2017. 
-                                    LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
-                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FQIQ, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
-                                  <!--  <img src="images/fotos/fotos_quimica/img_quimicaGrupal.jpg">  -->
-                                    <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
+                                    Se programó la primera fecha de capacitación en la FCE, el dia 23 de Setiembre del 2017. 
+                                    LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FCE para la correspondiente capacitación al personal administrativo.
+                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FCE, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
+                                  <!--  <img src="images/fotos/fotos_FCE/img_FCEgRUPAL.jpg">  -->
+                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -516,13 +518,13 @@
                 </div>
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_quimica/img_quimica2.jpg" alt="gallery 2" width="100%">
+                        <img src="images/fotos/fotos-fce/img_fce1.JPG" alt="gallery 8" width="100%">
                         <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg.png" alt="templatemo_frame"></div>
                         <div class="overlay">
                             <div class="templatemo_service_frame">
                                 <img src="images/templatemo_serviceimg1.png" alt="templatemo_frame">
                             </div>
-                            <a href="images/service/img_quimica2.jpg" data-rel="lightbox" data-title="FIGMMG" class="fa fa-search-plus"></a>
+                            <a href="images/service/img_fce1.JPG" data-rel="lightbox" data-title="FCE" class="fa fa-search-plus"></a>
                         </div>
                     </div>
                 </div>
@@ -532,7 +534,7 @@
             <div class="row">
                 <div class="col-md-6 templatemo_service">
                     <div class="gallery-item">
-                        <img src="images/fotos/fotos_geologica/img_geo1.jpg" alt="gallery 1" width="100%">
+                        <img src="images/fotos/fotos_educacion/img_edu2.jpeg" alt="gallery 9" width="100%">
                         <div class="templatemo_service_frame">
                             <img src="images/templatemo_serviceimg.png" alt="templatemo_frame">
                         </div>
@@ -540,36 +542,36 @@
                             <div class="templatemo_service_frame">
                                 <img src="images/templatemo_serviceimg1.png" alt="templatemo_frame">
                             </div>
-                            <a href="images/service/img_geo1.jpg" data-rel="lightbox" data-title="FIGMMG" class="fa fa-search-plus"></a>
+                            <a href="images/service/img_edu2.jpeg" data-rel="lightbox" data-title="edu" class="fa fa-search-plus"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 templatemo_service">
-                    <div class="templatemo_service_title">FACULTAD DE MEDICINA VETERINARIA</div>
-                    <div class="templatemo_service_subtitle">FIGMMG</div>
+                    <div class="templatemo_service_title">FACULTAD DE EDUCACIÓN</div>
+                    <div class="templatemo_service_subtitle">FE</div>
                     <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el dia 19 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.</p>
+                        <p>Se programó la primera fecha de capacitación en la Facultad de Educación, el 6 de Octubre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FE para la correspondiente capacitación al personal administrativo.</p>
                         <div class="clear"></div>
                     </div>
                     
-                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal1">
+                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal9">
                         LEER MÁS
                     </div>
 
 
-                    <div class="modal fade" id="miModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="miModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     
-                                    <h4 class="modal-title" id="myModalLabel1">FACULTAD DE MEDICINA VETERINARIA</h4>
+                                    <h4 class="modal-title" id="myModalLabel9">FACULTAD DE EDUCACIÓN</h4>
                                 </div>
                                 <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la Facultad de Ingeniería Geológica, Minas, Metalúrgica y Geográfica, el dia 19 de Setiembre del 2017.
-                                    LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FIGMMG para la correspondiente capacitación al personal administrativo.
-                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FIGMMG, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
-                                   <!-- <img src="images/fotos/fotos_geologica/img_geoGrupal.jpg">  -->
-                                    <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
+                                    Se programó la primera fecha de capacitación en la Facultad de Educació, el 6 de Octubre del 2017.
+                                    LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FE para la correspondiente capacitación al personal administrativo.
+                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FE, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
+                                   <!-- <img src="images/fotos/fotos_educacion/img_eduGrupal.jpg">  -->
+                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -580,52 +582,7 @@
                 </div>
             </div>
 
-            <div class="row templatemo_ordering">
-                <div class="col-md-6 templatemo_service one">
-                    <div class="templatemo_service_title">FACULTAD DE CIENCIAS SOCIALES</div>
-                    <div class="templatemo_service_subtitle">FQIQ</div>
-                    <div class="templatemo_service_text">
-                        <p>Se programó la primera fecha de capacitación en la FQIQ, el dia 23 de Setiembre del 2017. LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
-                    </div>
-                    <div class="templatemo_morebutton" data-toggle="modal" data-target="#miModal2">
-                        LEER MÁS
-                    </div>
-
-
-                    <div class="modal fade" id="miModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    
-                                    <h4 class="modal-title" id="myModalLabel2">FACULTAD DE CIENCIAS SOCIALES</h4>
-                                </div>
-                                <div class="modal-body">
-                                    Se programó la primera fecha de capacitación en la FCS, el 23 de Setiembre del 2017. 
-                                    LLevando a cabo la segunda etapa del proyecto de Gestión Documental, previamnete se coordinó con el Decano de la FQIQ para la correspondiente capacitación al personal administrativo.
-                                    Asistieron a la reunión el presidente de comisiones, los directores de las escuelas profesionales de la FQIQ, el jefe de Mesa de Partes, jefe de la Unidad de Matrícula, jefe dela Unidad de Economía y jefe de la Unidad de Biblioteca, con sus respectivas secretarias a fin de que todos los agentes involucrados en el proceso lo conozcan y así beneficiar al egresado facilitándole la obtención oportuna del grado académico a la vez que se ayuda al trabajador a realizar una labor más eficiente.
-                                  <!--  <img src="images/fotos/fotos_quimica/img_quimicaGrupal.jpg">  -->
-                                    <img src="images/fotos/fotos_psicologia/img_psicoGrupal.jpg">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 templatemo_service">
-                    <div class="gallery-item">
-                        <img src="images/fotos/fotos_quimica/img_quimica2.jpg" alt="gallery 2" width="100%">
-                        <div class="templatemo_service_frame"><img src="images/templatemo_serviceimg.png" alt="templatemo_frame"></div>
-                        <div class="overlay">
-                            <div class="templatemo_service_frame">
-                                <img src="images/templatemo_serviceimg1.png" alt="templatemo_frame">
-                            </div>
-                            <a href="images/service/img_quimica2.jpg" data-rel="lightbox" data-title="FIGMMG" class="fa fa-search-plus"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
 
 
@@ -651,14 +608,14 @@
                 </div>
                 <div class="col-md-4 templatemo_contactform">
                     <form action="#" method="get">
-                      	<input type="text" name="name" id="name" class="name" placeholder="Nombe">
-                      	<input type="text" name="email" id="email" class="email" placeholder="Email">
+                        <input type="text" name="name" id="name" class="name" placeholder="Nombe">
+                        <input type="text" name="email" id="email" class="email" placeholder="Email">
                         <input type="text" name="subject" id="subject" class="subject" placeholder="Asunto">
                         <textarea name="message" class="message" placeholder="Mensaje ... " id="message"></textarea>
                         <div class="clear"></div>
                                                     <!--verificar modal-->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="exampleModalLabel">Enviar</button>   
-                  	</form>
+                    </form>
                 </div>
 
                 <div class="col-md-8">
@@ -683,7 +640,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                    	Copyright &copy; 2084 <a href="#">Facultad de Ingeniería de Sistemas e informática - FISI UNMSM</a>
+                        Copyright &copy; 2084 <a href="#">Facultad de Ingeniería de Sistemas e informática - FISI UNMSM</a>
                     </div>
                 </div>
             </div>
