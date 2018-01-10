@@ -5,11 +5,11 @@ jQuery(document).ready(function($){
 	/************** Menu Content Opening *********************/
 	loadScript();
 
-   /********************* Ver Video ***********************/
-  function abrirVentana() {   
-     open("video_capacitacion.html","Modulo General", "toolbar=no,directories=no,menubar=no,status=no,height=800,width=600");   
-  }   
-  
+   /********************* Ver Video ***********************/  
+  $('.launch-modal').on('click', function(e){
+    e.preventDefault();
+    $( '#' + $(this).data('modal-id') ).modal();
+});
 	/************** Gallery Hover Effect *********************/
 	$(".overlay").hide();
 
