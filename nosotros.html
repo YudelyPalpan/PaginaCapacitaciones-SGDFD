@@ -4,7 +4,7 @@
     <title>SISTEMA DE GESTIÓN DOCUMENTAL CON FIRMA DIGITAL</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -26,7 +26,10 @@
     <script type="text/javascript" src="engine1/script.js"></script>
  
 </head>
-<body>
+
+
+<body style="margin:auto">
+
     <div class="templatemo_headerwrapper">
         <div class="templatemo_menu">
             <nav class="navbar navbar-default" role="navigation">
@@ -41,8 +44,7 @@
                     <div id="top-menu">
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a class="menu" href="../capacitaciones/"><span>CAPACITACIONES</span></a></li>
-                                <li><a class="menu" href="../ayuda/"><span>AYUDA</span></a></li>
+                                <li><a class="menu" href="index.html"><span>CAPACITACIONES</span></a></li>
                                 <!--algunos li mas-->
                                 <li><a class="menu" href="nosotros.html"><span>NOSOTROS</span></a></li>
                             </ul>
@@ -54,25 +56,44 @@
             </nav>
             <div class="templatemo_socialmedia">
                 <div class="templatemo_social"><a href="https://www.facebook.com/CeroPapelesSanMarcos/" target="_blank"><i class="fa fa-facebook" style="font-size: 1.5em;"></i><font style="font-size: 1.5em;">  |  </font></a></div> 
-                <div class="templatemo_social"><a href="#"><i class="fa fa-twitter" style="font-size: 1.5em;"></i><font style="font-size: 1.5em;">  |  </font></a></div> 
+                <div class="templatemo_social"><a href="#"><i class="fa fa-twitter" style="font-size: 1.5em;"></i>
+                    <font style="font-size: 1.5em;">  |  </font></a></div> 
                 <div class="templatemo_social"><a href="#"><i class="fa fa-google-plus" style="font-size: 1.5em;"></i></a></div>
             </div>
 
         </div>
 
-        <div class="clear"></div>
+        
         <div class="container templatemo_wrapper">
                       
             <div id="templatemo_service" class="container">
                 <br>
                 <div class="col-md-12">
                     <div class="templatemo_contacttitle">NUESTRO EQUIPO</div>    
-                    <iframe id="iframe2" src="wowslider.html" style="width:640px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+                  <!--  <iframe id="iframe2" src="slider.html" style="width:740px;height:460px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>   -->
+                    <div id="wowslider-container1" style="width:640px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0">
+                        <div class="ws_images">
+                            <ul>
+                                <li><img src="data1/images/equipo_cero_papeles.jpg" alt="1" title="Equipo Cero Papeles" id="wows1_0"/></li>
+                                <li><img src="data1/images/equipo_cero_papeles_0.jpg" alt="2" title="Equipo Cero Papeles" id="wows1_1"/></li>
+                                <li><img src="data1/images/equipo_cero_papeles_1.png" alt="3" title="Equipo Cero Papeles" id="wows1_2"/></li>
+                                <li><img src="data1/images/capacitaciones_al_equipo_cero_papeles.jpg" alt="4" title="Capacitaciones al Equipo" id="wows1_3"/></li>
+                            </ul>
+                        </div>
+                        <div class="ws_bullets">
+                            <div>
+                                <a href="#" title="Equipo Cero Papeles"><span><img src="data1/tooltips/equipo_cero_papeles.jpg" alt="1"/>1</span></a>
+                                <a href="#" title="Equipo Cero Papeles"><span><img src="data1/tooltips/equipo_cero_papeles_0.jpg" alt="2"/>2</span></a>
+                                <a href="#" title="Equipo Cero Papeles"><span><img src="data1/tooltips/equipo_cero_papeles_1.png" alt="3"/>3</span></a>
+                                <a href="#" title="Capacitaciones al Equipo"><span><img src="data1/tooltips/capacitaciones_al_equipo_cero_papeles.jpg" alt="4"/>4</span></a>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
-        </div>
+        
 
-
+        
         <!-- contact start -->
             <div id="templatemo_contact" class="row templatemo_contact">
                 
@@ -86,8 +107,7 @@
                         <input type="text" name="email" id="email" class="email" placeholder="Email">
                         <input type="text" name="subject" id="subject" class="subject" placeholder="Asunto">
                         <textarea name="message" class="message" placeholder="Mensaje ... " id="message"></textarea>
-                        <div class="clear"></div>
-                                                    <!--verificar modal-->
+                                                          <!--verificar modal-->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="exampleModalLabel">Enviar</button>   
                     </form>
                 </div>
@@ -114,11 +134,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        Copyright &copy; 2084 <a href="#">Facultad de Ingeniería de Sistemas e informática - FISI UNMSM</a>
+                        Copyright &copy; Facultad de Ingeniería de Sistemas e informática - FISI UNMSM
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">CERO PAPELES</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </body>
-
 </html>
